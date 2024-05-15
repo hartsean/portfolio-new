@@ -2,23 +2,40 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-          Sean Hart
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a href="mailto:hartsean@gmail.com">Contact</a>
-        </div>
-        
-      </div>
+    <main>
+    <div className="flex flex-col items-center justify-center min-h-screen py-20 px-4">
+      <header className="text-center mb-8">
+        <h1 className="text-4xl font-bold font-mono">Sean Hart</h1>
+        <p className="text-lg text-gray-400 font-mono">Software Engineer</p>
+      </header>
+      <main className="flex flex-col lg:flex-row items-center justify-between max-w-6xl w-full">
+        <section className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
+          {/* <h2 className="text-2xl font-bold font-mono mb-4">About Me</h2> */}
+          <p className="text-lg text-gray-400 font-mono">
+          Hello! I'm Sean, a passionate software engineer residing in the vibrant city of Austin, TX. With a diverse background in both technology and music, I bring a unique perspective to my work. {" "}
+          </p>
+          <br></br>
+          <p className="text-lg text-white font-mono">
+            <a href="mailto:hartsean@gmail.com">Get in touch!</a>
+          </p>
+        </section>
       
-      <div style={{borderRadius: '5px', overflow: 'hidden'}}>
-        <Image
-        src="/headshot.jpg"
-        width={350}
-        height={350}
-        alt="Sean Hart"
-      />
+        <section className="lg:w-1/2 lg:pl-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <Image
+              src="/headshot.jpg"
+              alt="Sean Hart"
+              width={500}
+              height={500}
+            />
+          </div>
+        </section>
+      </main>
+      <footer className="text-center mt-8">
+        <p className="text-sm text-gray-500 font-mono">© 2024 Sean Hart. All rights reserved.</p>
+      </footer>
     </div>
+
     </main>
   );
 }
