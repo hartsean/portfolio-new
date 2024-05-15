@@ -16,7 +16,7 @@ export default function Home() {
           </p>
           <br></br>
           <p className="text-lg text-white font-mono">
-            <a href="mailto:hartsean@gmail.com">Get in touch!</a>
+            <a href="mailto:hartsean@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch!</a>
           </p>
         </section>
       
