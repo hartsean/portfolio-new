@@ -12,7 +12,7 @@ export default function Home() {
         <section className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           {/* <h2 className="text-2xl font-bold font-mono mb-4">About Me</h2> */}
           <p className="text-lg text-gray-400 font-mono">
-          Hello! I&apos;m Sean, a passionate software engineer residing in the vibrant city of Austin, TX. With a diverse background in both technology and music, I bring a unique perspective to my work.
+          Hello! I&apos;m Sean, a passionate software engineer residing in the vibrant city of Austin, TX. With a diverse background in both technology and customer success, I bring a unique perspective to my work.
           </p>
           <br></br>
           <p className="text-lg text-white font-mono">
