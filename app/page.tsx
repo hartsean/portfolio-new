@@ -15,9 +15,30 @@ export default function Home() {
           Hello! I&apos;m Sean, a passionate software engineer residing in the vibrant city of Austin, TX. With a diverse background in both technology and customer success, I bring a unique perspective to my work.
           </p>
           <br></br>
-          <p className="text-lg text-white font-mono">
+          <p className="text-lg text-white font-mono hover:underline pb-3">
             <a href="mailto:hartsean@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch!</a>
           </p>
+          <div className="float-left pt-3 pr-6 hover:opacity-50">
+            <a href="https://github.com/hartsean" target="_blank">
+              <Image
+                    src="/github-mark-white.png"
+                    alt="Github"
+                    width={50}
+                    height={50}
+              />
+            </a>
+          </div>
+          <div className="float-left pt-3 hover:opacity-50">
+            <a href="https://www.linkedin.com/in/sean-c-hart" target="_blank">
+              <Image
+                  src="/LI-In-Bug-white.png"
+                  alt="LinkedIn"
+                  width={50}
+                  height={50}
+
+              />
+            </a>
+          </div>
         </section>
       
         <section className="lg:w-1/2 lg:pl-8">
