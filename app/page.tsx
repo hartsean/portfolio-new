@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-lg text-white font-mono hover:underline pb-3">
             <a href="mailto:hartsean@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch!</a>
           </p>
-          <div className="float-left pt-3 pr-6 hover:opacity-50">
+          <div className="float-left pt-3 pr-6 github-icon">
             <a href="https://github.com/hartsean" target="_blank">
               <Image
                     src="/github-mark-white.png"
@@ -28,7 +28,7 @@ export default function Home() {
               />
             </a>
           </div>
-          <div className="float-left pt-3 hover:opacity-50">
+          <div className="float-left pt-3 linkedin-icon">
             <a href="https://www.linkedin.com/in/sean-c-hart" target="_blank">
               <Image
                   src="/LI-In-Bug-white.png"
@@ -57,5 +57,6 @@ export default function Home() {
         <p className="text-sm text-gray-500 font-mono">© 2024 Sean Hart. All rights reserved.</p>
       </footer>
     </div>
+    
   );
 }
