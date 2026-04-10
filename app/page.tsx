@@ -5,14 +5,14 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen py-20 px-4">
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold font-mono">Sean Hart</h1>
-        <p className="text-lg text-gray-400 font-mono">Software Engineer</p>
+        <p className="text-lg text-gray-400 font-mono">Technical Solutions | Customer Success | Former Touring Musician</p>
       </header>
 
       <main className="flex flex-col lg:flex-row items-center justify-between max-w-6xl w-full">
         <section className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
-          {/* <h2 className="text-2xl font-bold font-mono mb-4">About Me</h2> */}
+          <h2 className="text-2xl font-bold font-mono mb-4">About:</h2>
           <p className="text-lg text-gray-400 font-mono">
-          Hello! I&apos;m Sean, a passionate software engineer residing in the vibrant city of Austin, TX. With a diverse background in both technology and customer success, I bring a unique perspective to my work.
+          I work at the intersection of music, technology, and customer success, translating complex systems into clear, impactful experiences. With a background spanning technical support, web development, and education, I’ve consistently helped users and clients understand, adopt, and extract value from innovative tools. In my free time, I enjoy playing music, reading, writing, and trail-running. 
           </p>
           <br></br>
           <p className="text-lg text-white font-mono hover:underline pb-3">
