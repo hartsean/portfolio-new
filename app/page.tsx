@@ -14,9 +14,11 @@ export default function Home() {
           <p className="text-lg text-gray-400 font-mono">
           I work at the intersection of music, technology, and customer success, translating complex systems into clear, impactful experiences.  
           </p>
+          <br></br>
           <p className="text-lg text-gray-400 font-mono">
           With a background spanning technical support, web development, and education, I’ve consistently helped users and clients understand, adopt, and extract value from innovative tools.
           </p>
+          <br></br>
           <p className="text-lg text-gray-400 font-mono">
           In my free time I enjoy drumming, playing guitar, reading, and trail-running.  
           </p>
