@@ -12,7 +12,13 @@ export default function Home() {
         <section className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           <h2 className="text-2xl font-bold font-mono mb-4">About:</h2>
           <p className="text-lg text-gray-400 font-mono">
-          I work at the intersection of music, technology, and customer success, translating complex systems into clear, impactful experiences. With a background spanning technical support, web development, and education, I’ve consistently helped users and clients understand, adopt, and extract value from innovative tools. In my free time, I enjoy playing music, reading, writing, and trail-running. 
+          I work at the intersection of music, technology, and customer success, translating complex systems into clear, impactful experiences.  
+          </p>
+          <p className="text-lg text-gray-400 font-mono">
+          With a background spanning technical support, web development, and education, I’ve consistently helped users and clients understand, adopt, and extract value from innovative tools.
+          </p>
+          <p className="text-lg text-gray-400 font-mono">
+          In my free time I enjoy drumming, playing guitar, reading, and trail-running.  
           </p>
           <br></br>
           <p className="text-lg text-white font-mono hover:underline pb-3">
